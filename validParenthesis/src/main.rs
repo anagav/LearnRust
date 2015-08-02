@@ -8,6 +8,7 @@ fn print_paranthesis(n:i32, open: i32, close: i32, result: String) {
 		print_paranthesis(n, open+1, close, result.to_string()+"{");		
 	}
 
+
 	if open > close{
 		print_paranthesis(n, open, close+1, result.to_string()+"}");
 	}
