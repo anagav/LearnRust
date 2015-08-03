@@ -1,0 +1,7 @@
+[package]
+name = "zmq_play"
+version = "0.1.0"
+authors = ["ashishn <ashishn@yahoo-inc.com>"]
+
+[dependencies.zmq]
+git = "https://github.com/erickt/rust-zmq.git"
